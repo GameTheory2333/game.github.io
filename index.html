@@ -2,17 +2,26 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Game</title>
+<style type="text/css">
+	/*.nickname{ width:1400px; height:150px;padding-top: 250px; border:0px solid #000; text-align:center;font-size:30px;} */
+	.nickname{ position:relative;left:29em;top:12em;font-size: 1.3em} 
+	/*.input1{ width:1400px; height:150px;padding-top: -200px; border:0px solid #000; text-align:center;} */
+	.input1{ position:relative;left:36em;top:20em;} 
+</style>
 </head>
-<body>
-
+<body bgcolor="#fafcf5">
+<div class="nickname">
 请输入你的昵称
+</div>
+<div class = "input1">
 
-<div>
-
-<input type="text" placeholder="Enter player's name" id="playerName"> <button id="addPlayer" onclick="window.open('b.html')">Add Player</button>
+<input  type="text" placeholder="输入昵称" id="playerName" width="40" height="40"> 
+<button id="addPlayer" onclick="window.open('b.html')">Add Player</button>
 
 </div>
 
 </body>
 </html>
+
